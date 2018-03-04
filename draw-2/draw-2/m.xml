@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_74" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="eg.edu.alexu.csd.oop.draw.cs53.rectangles" id="rectangles0">
+    <void class="eg.edu.alexu.csd.oop.draw.cs53.MyShape" method="getField">
+     <string>shapePosition</string>
+     <void method="set">
+      <object idref="rectangles0"/>
+      <object class="java.awt.Point" id="Point0">
+       <void class="java.awt.Point" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Point0"/>
+         <int>143</int>
+        </void>
+       </void>
+       <void class="java.awt.Point" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point0"/>
+         <int>58</int>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="eg.edu.alexu.csd.oop.draw.cs53.MyShape" method="getField">
+     <string>shapeColor</string>
+     <void method="set">
+      <object idref="rectangles0"/>
+      <object class="java.awt.Color">
+       <int>0</int>
+       <int>0</int>
+       <int>0</int>
+       <int>255</int>
+      </object>
+     </void>
+    </void>
+    <void class="eg.edu.alexu.csd.oop.draw.cs53.MyShape" method="getField">
+     <string>shapeFillColor</string>
+     <void method="set">
+      <object idref="rectangles0"/>
+      <object class="java.awt.Color">
+       <int>255</int>
+       <int>175</int>
+       <int>175</int>
+       <int>255</int>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+<void class="eg.edu.alexu.csd.oop.draw.cs53.MyShape" id="Field0" method="getField">
+ <string>shapeProp</string>
+ <void id="HashMap0" method="get">
+  <object idref="rectangles0"/>
+  <void method="put">
+   <string>width</string>
+   <double>182.0</double>
+  </void>
+  <void method="put">
+   <string>hieght</string>
+   <double>182.0</double>
+  </void>
+ </void>
+</void>
+<void idref="HashMap0"/>
+</java>
